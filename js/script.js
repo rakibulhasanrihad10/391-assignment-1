@@ -28,5 +28,9 @@ document.getElementById("last-modified").textContent += `${formattedDateTime} (B
 
 
 
-// ============= page scroll =============
-// ============= page scroll =============
+// ============= page location =============
+
+const pageUrl = window.location.href;
+document.getElementById("page-url").textContent = `Current Page URL: ${pageUrl}`;
+
+// ============= page location =============
